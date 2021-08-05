@@ -7,7 +7,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-	<!--@include('header') or the one belpw to include the header-->
+	<!--@include('header') or the one below to include the header-->
 	{{View::make('header')}}
 	@yield('content')
 	{{View::make('footer')}}
@@ -40,6 +40,15 @@
 	}
 	.detail-img{
 		height: 200px;
+	}
+	.custom-cartlist{
+		width: auto ;
+
+	}
+	.cartlist-divider{
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 20px; 
+		padding-bottom: 20px;
 	}
 </style>
 <!--
