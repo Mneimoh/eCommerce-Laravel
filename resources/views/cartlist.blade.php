@@ -1,10 +1,11 @@
 @extends('master')
 @section('content')
 <div class="custom-product custom-cartlist">
-  <div class="row">
+  <div class="">
     <div class="col-sm-10">
       <div class="trending-wrapper">
         <h4>Result for Products</h4>
+        <a class="btn btn-success" href="/ordernow">Order Now</a><br/><br/>
           @foreach($products as $product)
             <div class="searched-item cartlist-divider">
               <div class="row">
@@ -25,10 +26,10 @@
               </div>
             </div>
           @endforeach
+          <a class="btn btn-success" href="/ordernow">Order Now</a><br/><br/>
       </div>
      
     </div>
-    <div class="col-sm-2">sdjsdak</div>
   </div>
   
 </div>

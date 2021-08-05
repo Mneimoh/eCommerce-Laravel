@@ -41,14 +41,14 @@
 	.detail-img{
 		height: 200px;
 	}
-	.custom-cartlist{
-		width: auto ;
-
-	}
+	
 	.cartlist-divider{
 		border-bottom: 1px solid #ccc;
 		margin-bottom: 20px; 
 		padding-bottom: 20px;
+	}
+	.custom-ordernow{
+		margin-left: 20px;
 	}
 </style>
 <!--
